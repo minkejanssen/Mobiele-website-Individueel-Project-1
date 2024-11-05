@@ -8,17 +8,21 @@ h1{
 font-family: Arima, Helvetica, sans-serif;
 font-size: x-large;
 padding: 1em;
+margin-bottom: -2em;
+margin-top: 0.4em;
+text-align: center;
 
 }
-img{
-max-width: 75%;
+
+.logo{
+max-width: 75% ;
 }
 .fotos{
-max-width: 120%;
+display: flex;
+max-width: 75%;
+margin: 3em 3em;
 align-items: center;
 justify-content: center;
-display: flex;
-
 
 }
 
@@ -32,8 +36,11 @@ p{
 font-family: Avenir Next Condensed, Arial, Helvetica, sans-serif;
 text-align: center;
 margin: 2em;
+
 padding-left: 0.5em;
 }
+
+
 
 nav ul {
     display: flex;
@@ -71,8 +78,16 @@ background-color:#F28D21 ;
 color: white;
 padding: 0.7em;
 border-radius: 2em;
+
+}
+.button :focus{
+background-color: #E94591;
 }
 
+.reserveren :focus{
+background-color: #F4CFD8;
+color: black;
+}
 
 
 .gerechten{
