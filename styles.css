@@ -1,0 +1,125 @@
+header{
+align-items: center;
+background-color: #9ba986;
+display: flex;
+}
+
+h1{
+font-family: Arima, Helvetica, sans-serif;
+font-size: x-large;
+padding: 1em;
+
+}
+img{
+max-width: 75%;
+}
+.fotos{
+max-width: 120%;
+align-items: center;
+justify-content: center;
+display: flex;
+
+
+}
+
+.cafe{
+max-width: 90%;
+align-items: center;
+margin: 1em;
+}
+
+p{
+font-family: Avenir Next Condensed, Arial, Helvetica, sans-serif;
+text-align: center;
+margin: 2em;
+padding-left: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+nav li{
+    list-style: none;
+    color: black;
+    margin: 0.5em;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main{
+background-color: #E5E0D8;
+padding-bottom: 2em;
+padding-top: 1em;
+align-items: center;
+padding-right: 1.5em;
+}
+.reserveren a{
+background-color:#E94591;
+padding: 0.8em;
+border-radius: 0.5em;
+font-size:medium;
+color: white;
+}
+.button a{
+    font-family: EB Garamond, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+background-color:#F28D21 ;
+color: white;
+padding: 0.7em;
+border-radius: 2em;
+}
+
+
+
+.gerechten{
+display: flex; 
+margin: 2em;
+max-width: 35%;
+}
+.sap{
+max-width: 15%;
+margin-left: 1.5em;
+}
+.koffie{
+max-width: 20%;
+}
+.image-text-side{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px 0;
+font-size: small;
+}
+.icoons{
+max-width: 20%;
+margin: 1em;
+}
+
+
+form{
+padding: 2em;
+margin-right: 3em;
+}
+
+
+footer{
+    background-color: #9ba986;
+    padding: 1em;
+  
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+footer li {
+    list-style: none;
+    color: black;
+   margin: 0.3em;
+}
