@@ -13,16 +13,19 @@ margin-top: 0.4em;
 text-align: center;
 
 }
+img{
+max-width: 75%;
+}
 
 .logo{
 max-width: 75% ;
 }
 .fotos{
 display: flex;
-max-width: 85%;
-margin: 3em 3em;
+max-width: 90%;
 align-items: center;
 justify-content: center;
+margin: 2em 2em;
 
 }
 
