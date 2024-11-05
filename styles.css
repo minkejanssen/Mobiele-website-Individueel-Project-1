@@ -19,7 +19,7 @@ max-width: 75% ;
 }
 .fotos{
 display: flex;
-max-width: 75%;
+max-width: 85%;
 margin: 3em 3em;
 align-items: center;
 justify-content: center;
@@ -80,11 +80,11 @@ padding: 0.7em;
 border-radius: 2em;
 
 }
-.button :focus{
+.button :active{
 background-color: #E94591;
 }
 
-.reserveren :focus{
+.reserveren :active{
 background-color: #F4CFD8;
 color: black;
 }
