@@ -81,16 +81,8 @@ background-color:#F28D21 ;
 color: white;
 padding: 0.7em;
 border-radius: 2em;
-
-}
-.button :active{
-background-color: #E94591;
 }
 
-.reserveren :active{
-background-color: #F4CFD8;
-color: black;
-}
 
 
 .gerechten{
@@ -121,6 +113,16 @@ margin: 1em;
 form{
 padding: 2em;
 margin-right: 3em;
+}
+
+.info{
+margin: 3em 3em;
+border: 0.2em solid rgb(223, 97, 179);
+padding: 0.5em;
+background-color: white;
+font-weight: bold;
+font-size: 0.85em;
+font-family: EB Garamond, Arial, Helvetica, sans-serif;
 }
 
 
