@@ -19,6 +19,7 @@ max-width: 75%;
 
 .logo{
 max-width: 75% ;
+margin: 0.4em;
 }
 .fotos{
 display: flex;
@@ -38,7 +39,7 @@ margin: 1em;
 p{
 font-family: Avenir Next Condensed, Arial, Helvetica, sans-serif;
 text-align: center;
-margin: 2em;
+margin: 2em 1em;
 
 padding-left: 0.5em;
 }
@@ -49,9 +50,12 @@ nav ul {
     display: flex;
     justify-content: center;
     width: 30%;
+    
+    
 }
 nav li{
     list-style: none;
+
     color: black;
     margin: 0.5em;
 
@@ -83,12 +87,12 @@ padding: 0.7em;
 border-radius: 2em;
 }
 
-
-
 .gerechten{
 display: flex; 
 margin: 2em;
 max-width: 35%;
+margin-left: 1em;
+margin: 5em 0.7em;
 }
 .sap{
 max-width: 15%;
@@ -105,25 +109,30 @@ gap: 20px 0;
 font-size: small;
 }
 .icoons{
-max-width: 20%;
-margin: 1em;
+  max-width: 20%;
+  margin: 1em;
 }
 
 
 form{
+    justify-content: center;
+margin: 1.5em 1.5em;
 padding: 2em;
-margin-right: 3em;
+
 }
 
 .info{
-margin: 3em 3em;
-border: 0.2em solid rgb(223, 97, 179);
-border-radius: 0.5em;
-padding: 0.5em;
-background-color: white;
-font-weight: bold;
-font-size: 0.85em;
-font-family: EB Garamond, Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em 3em;
+  border: 0.2em solid rgb(223, 97, 179);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  background-color: white;
+  font-weight: bold;
+  font-size: 0.85em;
+  font-family: EB Garamond, Arial, Helvetica, sans-serif;
 }
 
 
